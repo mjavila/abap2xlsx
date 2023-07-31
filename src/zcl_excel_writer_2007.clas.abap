@@ -3711,6 +3711,9 @@ CLASS zcl_excel_writer_2007 IMPLEMENTATION.
           lo_create_xl_sheet TYPE REF TO lcl_create_xl_sheet.
 
 
+    DATA: ls_monster         TYPE z4tt_monster_header.
+
+
 
 **********************************************************************
 * STEP 1: Create [Content_Types].xml into the root of the ZIP
